@@ -1,0 +1,30 @@
+{
+  "name": "young-create",
+  "version": "1.0.0",
+  "description": "个人项目脚手架(拉取github对应的demo创建新的项目)",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BluesYoung-web/young-create.git"
+  },
+  "keywords": [
+    "nodejs",
+    "前端",
+    "脚手架"
+  ],
+  "author": "BluesYoung-web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluesYoung-web/young-create/issues"
+  },
+  "homepage": "https://github.com/BluesYoung-web/young-create#readme",
+  "dependencies": {
+    "commander": "^7.1.0",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.4"
+  }
+}
